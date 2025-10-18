@@ -69,3 +69,20 @@ Cuenta en GitHub para subir el informe en formato Markdown.
 - Videos de youtube. 
 - Tutoriales de Docker.
 ## 8. Procedimiento    
+
+1) Verificamos que docker este bien en nuetra pc 
+
+Abrir Docker Desktop y una terminal PowerShell (o CMD).
+
+Comprobar que Docker corre:
+<img width="541" height="85" alt="image" src="https://github.com/user-attachments/assets/e31e4eed-0044-48f6-8a0c-6bc9d3d43fb9" />
+
+2) Crear los contenedores Nginx
+
+Creamos dos contenedores (uno para la informacion institucional y otro para la informacion personal):
+<img width="1015" height="315" alt="image" src="https://github.com/user-attachments/assets/69024d56-c9e2-45ba-b52c-954ae5167341" />
+
+<img width="877" height="63" alt="image" src="https://github.com/user-attachments/assets/66d8e530-6e4f-42ac-a3b1-35ede3f6de61" />
+
+
+
