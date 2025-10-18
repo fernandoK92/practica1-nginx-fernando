@@ -1,54 +1,71 @@
-# Práctica Comandos de Linux  
+# Práctica Contenedores servidor web 
 
 ## 1. Título  
-Comandos de Linux
-
+Contenedores servidor web
 ## 2. Tiempo de duración  
-15 minutos.  
+25 minutos.  
 
 ## 3. Fundamentos  
 
-Linux es un sistema operativo ampliamente utilizado en servidores, supercomputadoras y entornos de desarrollo debido a su estabilidad, seguridad y flexibilidad. Una de sus características principales es el manejo mediante **línea de comandos**, lo cual permite al usuario interactuar directamente con el sistema operativo para administrar archivos, procesos y configuraciones.  
+En esta práctica usamos Docker para crear contenedores y correr en ellos el servidor web Nginx.
+Un contenedor es como una “cajita” que trae todo lo necesario para que una aplicación funcione sin depender del sistema principal.
 
-El uso de comandos en Linux ofrece ventajas como:  
-- **Automatización:** se pueden crear scripts para ejecutar múltiples instrucciones de manera repetitiva.  
-- **Precisión:** cada comando cumple una función específica.  
-- **Versatilidad:** se pueden combinar comandos mediante tuberías (`|`) o redirecciones (`>` y `>>`).  
+Con Nginx montamos dos páginas distintas:
 
-En esta práctica se utilizaron los siguientes conceptos:  
+Una con información del instituto.
 
-- Creación de directorios con `mkdir`.  
-- Creación y edición de archivos de texto con `echo`, `nano` o `vim`.  
-- Copia y movimiento de archivos con `cp` y `mv`.  
-- Redirección de contenido con `>` (sobrescribe) y `>>` (añade).  
-- Eliminación de archivos y carpetas con `rm` y `rmdir`.  
-- Visualización de historial de comandos con `history` y redirección de salida a un archivo.  
+Otra con información personal del estudiante.
+
+Para personalizar el contenido, copiamos el archivo index.html desde el contenedor al computador, lo editamos y lo volvimos a pasar al contenedor.
+
+El objetivo es aprender a manejar contenedores, editar archivos dentro de Linux y entender cómo desplegar páginas web básicas de forma rápida y aislada.
 
 ## 4. Conocimientos previos  
 
-Para realizar esta práctica el estudiante debe conocer:  
-- Comandos básicos de Linux (mkdir, ls, cp, mv, rm, history).  
-- Concepto de directorio de trabajo.  
-- Manejo básico de un editor de texto en la terminal.  
-- Conocer de Git y GitHub para subir archivos.  
+Para poder realizar esta práctica es necesario tener unas nociones básicas de:
+
+Linux: conocer comandos básicos como copiar, mover, editar y navegar entre carpetas.
+
+Docker: saber qué es un contenedor y cómo se ejecuta con docker run, docker ps, docker stop.
+
+Nginx: entender que es un servidor web y que muestra por defecto el archivo index.html.
+
+Markdown y GitHub: para poder documentar la práctica en un informe y subirlo al repositorio.
 
 ## 5. Objetivos a alcanzar  
 
-- Crear y organizar carpetas y archivos en Linux.
-- Mover, copiar y eliminar archivos usando comandos básicos.
-- Usar redirecciones para manejar contenido en archivos de texto.
-- Guardar el historial de comandos como evidencia.
-- Subir todo al repositorio de GitHub y familiarizarse con la terminal.
+Objetivo general
+
+Aprender a crear y personalizar servidores web en contenedores Docker usando la imagen de Nginx.
+
+Objetivos específicos
+
+Crear dos contenedores Nginx y exponerlos en diferentes puertos.
+
+Editar y personalizar el archivo index.html de cada servidor.
+
+Practicar el uso de comandos básicos de Docker para copiar, ejecutar y administrar contenedores.
+
+Documentar la práctica en un informe usando formato Markdown y subirlo a GitHub.
   
 ## 6. Equipo necesario  
 
-- Computador con Windows/Linux/Mac.  
-- Git Bash o WSL Ubuntu instalado.  
-- Acceso a internet.  
-- Cuenta de GitHub Personal.  
+Computador personal con Windows, Linux o macOS.
+
+Docker Desktop instalado y funcionando.
+
+Editor de texto (Bloc de notas, VS Code, Nano, etc.) para modificar los archivos HTML.
+
+Navegador web (Chrome, Firefox, Edge) para visualizar las páginas desplegadas.
+
+Conexión a internet para descargar la imagen de Nginx desde Docker Hub.
+
+Cuenta en GitHub para subir el informe en formato Markdown.
 
 ## 7. Material de apoyo  
 
 - Documentación de Linux.
+- Documentacion de Docker
 - Videos de youtube. 
-- Tutoriales de Git y GitHub.  
+- Tutoriales de Docker.
+## 8. Procedimiento    
