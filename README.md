@@ -95,10 +95,6 @@ Entramos al contenedor:
 Ya dentro del contenedor, reemplazamos el archivo index.html con el contenido personalizado:
 <img width="931" height="812" alt="image" src="https://github.com/user-attachments/assets/61c6cd4e-6747-45d4-851d-af1529a2c00a" />
 
-Html :
-<img width="850" height="557" alt="image" src="https://github.com/user-attachments/assets/09c8b912-699a-4fd5-9b96-3d0e73baeae5" />
-
-
 
 
 abrimos el http://localhost:8089/ para ver que se aya realizado el cambio 
@@ -110,9 +106,6 @@ Entramos al contenedor:
 <img width="828" height="57" alt="image" src="https://github.com/user-attachments/assets/f29c4c28-043c-435c-a1ec-06f695f04ddc" />
 Reemplazamos el archivo index.html con la información personal:
 <img width="1141" height="387" alt="image" src="https://github.com/user-attachments/assets/7a95ded0-1e1b-4287-87db-11eecf3b7a0f" />
-
-html : 
-<img width="1195" height="347" alt="image" src="https://github.com/user-attachments/assets/acd3bd5e-accb-4183-ad74-d0b8662308ff" />
 
 
 
