@@ -136,22 +136,8 @@ Reemplazamos el archivo index.html con la información personal:
 <img width="1141" height="387" alt="image" src="https://github.com/user-attachments/assets/7a95ded0-1e1b-4287-87db-11eecf3b7a0f" />
 
 html : 
-cat > /usr/share/nginx/html/index.html << 'EOF'
-<!DOCTYPE html>
-<html>
-<head>
-    <meta charset="UTF-8">
-    <title>Información Personal</title>
-</head>
-<body>
-    <h1>Sobre mí</h1>
-    <p>Mi nombre es <strong>Fernando Castro</strong>.</p>
-    <p>Tengo 21 años.</p>
-    <p>Estudio en el <strong>Tecnológico Sudamericano</strong> la carrera de <em>Desarrollo de Software</em>.</p>
-    <p>Vivo en Cuenca, Ecuador.</p>
-</body>
-</html>
-EOF
+<img width="1195" height="347" alt="image" src="https://github.com/user-attachments/assets/acd3bd5e-accb-4183-ad74-d0b8662308ff" />
+
 
 
 abrimos el http://localhost:8090/ para ver que se aya realizado el cambio 
