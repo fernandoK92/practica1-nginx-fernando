@@ -96,32 +96,8 @@ Ya dentro del contenedor, reemplazamos el archivo index.html con el contenido pe
 <img width="931" height="812" alt="image" src="https://github.com/user-attachments/assets/61c6cd4e-6747-45d4-851d-af1529a2c00a" />
 
 Html :
-cat > /usr/share/nginx/html/index.html << 'EOF'
-<!DOCTYPE html>
-<html>
-<head>
-    <meta charset="UTF-8">
-    <title>Instituto Tecnológico Sudamericano</title>
-</head>
-<body>
-    <h1>Bienvenidos al Instituto Tecnológico Sudamericano</h1>
-    
-    <h2>Carreras que ofrecemos:</h2>
-    <ul>
-        <li>Enfermería</li>
-        <li>Desarrollo de Software</li>
-        <li>Marketing</li>
-        <li>Redes y Telecomunicaciones</li>
-        <li>Diseño Gráfico</li>
-        <li>Gastronomía</li>
-    </ul>
+<img width="850" height="557" alt="image" src="https://github.com/user-attachments/assets/09c8b912-699a-4fd5-9b96-3d0e73baeae5" />
 
-    <p><strong>Duración:</strong> 2 años</p>
-    <p><strong>Título:</strong> Tecnólogo</p>
-    <p><strong>Ubicación:</strong> San Blas, Cuenca</p>
-</body>
-</html>
-EOF
 
 
 
