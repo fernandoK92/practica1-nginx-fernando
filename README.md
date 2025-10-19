@@ -95,6 +95,36 @@ Entramos al contenedor:
 Ya dentro del contenedor, reemplazamos el archivo index.html con el contenido personalizado:
 <img width="931" height="812" alt="image" src="https://github.com/user-attachments/assets/61c6cd4e-6747-45d4-851d-af1529a2c00a" />
 
+Html :
+cat > /usr/share/nginx/html/index.html << 'EOF'
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Instituto Tecnológico Sudamericano</title>
+</head>
+<body>
+    <h1>Bienvenidos al Instituto Tecnológico Sudamericano</h1>
+    
+    <h2>Carreras que ofrecemos:</h2>
+    <ul>
+        <li>Enfermería</li>
+        <li>Desarrollo de Software</li>
+        <li>Marketing</li>
+        <li>Redes y Telecomunicaciones</li>
+        <li>Diseño Gráfico</li>
+        <li>Gastronomía</li>
+    </ul>
+
+    <p><strong>Duración:</strong> 2 años</p>
+    <p><strong>Título:</strong> Tecnólogo</p>
+    <p><strong>Ubicación:</strong> San Blas, Cuenca</p>
+</body>
+</html>
+EOF
+
+
+
 abrimos el http://localhost:8089/ para ver que se aya realizado el cambio 
 <img width="1173" height="707" alt="image" src="https://github.com/user-attachments/assets/ff602661-ff10-41c0-81f3-d263a2ff0f6e" />
 
@@ -104,6 +134,25 @@ Entramos al contenedor:
 <img width="828" height="57" alt="image" src="https://github.com/user-attachments/assets/f29c4c28-043c-435c-a1ec-06f695f04ddc" />
 Reemplazamos el archivo index.html con la información personal:
 <img width="1141" height="387" alt="image" src="https://github.com/user-attachments/assets/7a95ded0-1e1b-4287-87db-11eecf3b7a0f" />
+
+html : 
+cat > /usr/share/nginx/html/index.html << 'EOF'
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Información Personal</title>
+</head>
+<body>
+    <h1>Sobre mí</h1>
+    <p>Mi nombre es <strong>Fernando Castro</strong>.</p>
+    <p>Tengo 21 años.</p>
+    <p>Estudio en el <strong>Tecnológico Sudamericano</strong> la carrera de <em>Desarrollo de Software</em>.</p>
+    <p>Vivo en Cuenca, Ecuador.</p>
+</body>
+</html>
+EOF
+
 
 abrimos el http://localhost:8090/ para ver que se aya realizado el cambio 
 <img width="960" height="591" alt="image" src="https://github.com/user-attachments/assets/63b85587-ccb2-498f-9090-6448a37acb74" />
