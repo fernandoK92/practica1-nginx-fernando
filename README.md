@@ -84,5 +84,48 @@ Creamos dos contenedores (uno para la informacion institucional y otro para la i
 
 <img width="877" height="63" alt="image" src="https://github.com/user-attachments/assets/66d8e530-6e4f-42ac-a3b1-35ede3f6de61" />
 
+Verifica que estén :
+<img width="1535" height="93" alt="image" src="https://github.com/user-attachments/assets/10856399-5e03-4808-9884-2d7798629b26" />
+
+Editar el archivo del servidor institucional
+
+Entramos al contenedor:
+<img width="818" height="57" alt="image" src="https://github.com/user-attachments/assets/dc557c91-c9fb-48f8-9404-aa4b5d5bb54e" />
+
+Ya dentro del contenedor, reemplazamos el archivo index.html con el contenido personalizado:
+<img width="931" height="812" alt="image" src="https://github.com/user-attachments/assets/61c6cd4e-6747-45d4-851d-af1529a2c00a" />
+
+abrimos el http://localhost:8089/ para ver que se aya realizado el cambio 
+<img width="1173" height="707" alt="image" src="https://github.com/user-attachments/assets/ff602661-ff10-41c0-81f3-d263a2ff0f6e" />
+
+Editar el archivo del servidor personal
+
+Entramos al contenedor:
+<img width="828" height="57" alt="image" src="https://github.com/user-attachments/assets/f29c4c28-043c-435c-a1ec-06f695f04ddc" />
+Reemplazamos el archivo index.html con la información personal:
+<img width="1141" height="387" alt="image" src="https://github.com/user-attachments/assets/7a95ded0-1e1b-4287-87db-11eecf3b7a0f" />
+
+abrimos el http://localhost:8090/ para ver que se aya realizado el cambio 
+<img width="960" height="591" alt="image" src="https://github.com/user-attachments/assets/63b85587-ccb2-498f-9090-6448a37acb74" />
+
+Terminariamos la practica 
+## 9. Resultados esperados:
+Al ingresar a http://localhost:8089
+ debe mostrarse la página institucional, con la información del Instituto Tecnológico Sudamericano, carreras disponibles, duración, título y ubicación.
+
+Al ingresar a http://localhost:8090
+ debe mostrarse la página personal, con los datos del estudiante: nombre, edad, carrera y ciudad de residencia.
+
+Ambos servidores funcionan de manera independiente, pero usando la misma imagen base de Nginx en Docker.
+
+Se comprobó que se podían crear, detener, eliminar y volver a levantar contenedores sin problema, editando los archivos index.html directamente desde dentro del contenedor.
+
+
+
+
+
+
+
+
 
 
